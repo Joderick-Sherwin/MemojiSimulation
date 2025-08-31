@@ -1,0 +1,30 @@
+# config/config.yaml
+
+camera:
+  camera_id: 0
+  flip: true
+  frame_width: 640
+  frame_height: 480
+
+holistic:
+  model_complexity: 1
+  min_detection_confidence: 0.5
+  min_tracking_confidence: 0.5
+
+visualization:
+  pose_color: [0, 255, 0]
+  pose_thickness: 2
+  pose_circle_radius: 2
+
+  face_color: [255, 255, 0]
+  face_thickness: 1
+  face_circle_radius: 1
+
+  hand_color: [0, 255, 255]
+  hand_thickness: 2
+  hand_circle_radius: 2
+
+recorder:
+  output_dir: "recordings"
+  filename: "output.avi"
+  fps: 30

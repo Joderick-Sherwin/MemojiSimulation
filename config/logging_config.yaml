@@ -1,0 +1,10 @@
+# config/logging_config.yaml
+
+logger:
+  name: "FullBodyWireframe"
+  log_file: "logs/app.log"
+  level: "DEBUG"
+  max_bytes: 5242880      # 5 MB
+  backup_count: 3
+  console_format: "[%(asctime)s] [%(levelname)s] %(message)s"
+  file_format: "[%(asctime)s] [%(levelname)s] %(name)s - %(message)s"
